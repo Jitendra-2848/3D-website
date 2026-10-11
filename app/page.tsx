@@ -14,6 +14,7 @@ const Page = () => {
     const Timer = new THREE.Timer();
     const obj = new THREE.Mesh(geometry, material);
     scene.add(obj);
+    if(!boxRef.current) return;
 
     const camera = new THREE.PerspectiveCamera(
       100,
