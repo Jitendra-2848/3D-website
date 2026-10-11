@@ -12,8 +12,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "3D webiste",
-  description: "Drone Website",
+  title: "Drone",
+  description: "Genx Droid",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
